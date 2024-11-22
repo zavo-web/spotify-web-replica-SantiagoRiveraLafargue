@@ -1,0 +1,10 @@
+:root {
+  --bg-black: #000;
+  --bg-darkgrey: #141414;
+  --bg-grey: #1e1e1e;
+  --bg-lightgrey: #3c3c3c;
+  --bg-bright-hover: #323232;
+  --border-bright-hover: #808080;
+  --icon-color: #a4a4a4;
+  --icon-focus-color: #ffffff;
+}

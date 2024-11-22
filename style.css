@@ -1,0 +1,19 @@
+@import "css/_header.css";
+@import "css/_helpers.css";
+@import "css/_reset.css";
+@import "css/_varColors.css";
+@import "css/_leftMiddle.css";
+@import "css/_rightMiddle.css";
+@import "css/_footer.css";
+
+body {
+  margin: 8px;
+}
+
+.middle {
+  height: calc(100% - 136px);
+  width: 100%;
+  min-height: 400px;
+  min-width: 960px;
+  margin-bottom: 8px;
+}

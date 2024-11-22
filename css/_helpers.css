@@ -1,0 +1,82 @@
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  text-decoration: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.spaceAround {
+  display: flex;
+  justify-content: space-around;
+}
+
+.white {
+  color: white;
+}
+
+.grey {
+  color: rgb(180, 180, 180);
+}
+
+.black {
+  color: black;
+}
+
+.horizontalCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.verticalCenter {
+  display: flex;
+  align-items: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.underlineHover:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.nonBulletList {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.headerToolTip {
+  position: absolute;
+  top: 70px;
+  border-radius: 5px;
+  height: 20px;
+  width: 50px;
+  margin: 0px;
+  background-color: var(--bg-lightgrey);
+  z-index: 100px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+}

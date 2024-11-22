@@ -1,0 +1,25 @@
+footer {
+  height: 50px;
+  min-width: 940px;
+  background: linear-gradient(
+    90deg,
+    rgba(176, 66, 177, 1) 0%,
+    rgba(125, 108, 200, 1) 33%,
+    rgba(93, 134, 214, 1) 57%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin-top: 8px;
+  padding: 10px;
+}
+
+.freeSignUp {
+  height: 100%;
+  width: 150px;
+  min-width: 150px;
+  background-color: white;
+  border-radius: 100px;
+}
+
+.freeSignUp:hover {
+  transform: scale(1.05);
+}

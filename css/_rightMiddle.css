@@ -1,0 +1,130 @@
+@import "_varColors.css";
+
+.rightMiddle {
+  width: calc(70% - 8px);
+  height: 100%;
+  min-width: 470px;
+  background: linear-gradient(
+    180deg,
+    rgba(30, 30, 30, 1) 0%,
+    rgba(20, 20, 20, 1) 20%,
+    rgba(20, 20, 20, 1) 100%
+  );
+  padding-inline: 18px;
+  border-radius: 10px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.infoSection {
+  padding-bottom: 18px;
+}
+
+.extraInfo {
+  margin-top: 25px;
+}
+
+.categoryTitle {
+  margin-left: 6px;
+}
+
+.category {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+  max-height: 330px;
+  overflow-y: hidden;
+}
+
+.categoryCard {
+  border-radius: 14px;
+  width: calc(100%-12px);
+  margin-bottom: 100px;
+  padding: 12px;
+  transition: 0.4s;
+}
+
+.cardImgWrapper {
+  margin-bottom: -40px;
+}
+
+.artistImg {
+  width: 100%;
+  border-radius: 1000px;
+}
+
+.musicImg {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.cardMargin {
+  margin: 5px;
+}
+
+.cardText {
+  margin-block: 10px;
+}
+
+.playButton {
+  position: relative;
+  background-color: #1abc54;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+  bottom: 40px;
+  opacity: 0;
+  left: calc(100% - 60px);
+  transition: 0.1s;
+}
+
+.playButton:hover {
+  transform: scale(1.05);
+  background-color: #41dd77;
+}
+
+.playIcon {
+  width: 60%;
+}
+
+.categoryCard:hover {
+  background-color: var(--bg-bright-hover);
+  .playButton {
+    opacity: 1;
+    bottom: 60px;
+  }
+}
+
+.links {
+  margin-top: 10px;
+}
+
+.socialMedia {
+  width: 140px;
+  padding-top: 10px;
+}
+
+.socialMediaButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: rgb(40, 40, 40);
+  transition: 0.2s;
+}
+
+.socialMediaIcon {
+  fill: white;
+  width: 18px;
+  margin: 10px;
+}
+
+.socialMediaButton:hover {
+  background-color: rgb(80, 80, 80);
+}
+
+.horizontalLine {
+  height: 1px;
+  background-color: rgb(80, 80, 80);
+  margin-block: 50px;
+}
