@@ -13,7 +13,7 @@ body {
 .middle {
   height: calc(100% - 136px);
   width: 100%;
-  min-height: 400px;
+  min-height: 398px;
   min-width: 960px;
   margin-bottom: 8px;
 }
