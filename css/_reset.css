@@ -9,4 +9,5 @@ body {
   font-family: sans-serif;
   vertical-align: baseline;
   background-color: var(--bg-black);
+  height: calc(100% - 8px);
 }
