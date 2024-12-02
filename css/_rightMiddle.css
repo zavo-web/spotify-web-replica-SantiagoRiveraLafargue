@@ -1,7 +1,7 @@
 @import "_varColors.css";
 
 .rightMiddle {
-  width: calc(70% - 8px);
+  width: calc(100% - 8px);
   height: calc(100% - 40px);
   min-width: 470px;
   background: linear-gradient(
