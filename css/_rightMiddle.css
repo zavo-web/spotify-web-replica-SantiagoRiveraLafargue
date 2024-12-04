@@ -1,8 +1,8 @@
 @import "_varColors.css";
 
 .rightMiddle {
-  width: calc(70% - 8px);
-  height: 100%;
+  width: calc(100% - 8px);
+  height: calc(100% - 40px);
   min-width: 470px;
   background: linear-gradient(
     180deg,
@@ -11,6 +11,7 @@
     rgba(20, 20, 20, 1) 100%
   );
   padding-inline: 18px;
+  padding-bottom: 40px;
   border-radius: 10px;
   overflow-y: scroll;
   scrollbar-width: none;
@@ -31,8 +32,8 @@
 .category {
   display: grid;
   grid-auto-columns: 1fr;
-  grid-template-columns: repeat(auto-fill, minmax(200px, auto));
-  max-height: 330px;
+  grid-template-columns: repeat(auto-fill, minmax(160px, auto));
+  max-height: 270px;
   overflow-y: hidden;
 }
 
@@ -55,7 +56,7 @@
 
 .musicImg {
   width: 100%;
-  border-radius: 20px;
+  border-radius: 8px;
 }
 
 .cardMargin {
