@@ -32,8 +32,8 @@
 .category {
   display: grid;
   grid-auto-columns: 1fr;
-  grid-template-columns: repeat(auto-fill, minmax(200px, auto));
-  max-height: 330px;
+  grid-template-columns: repeat(auto-fill, minmax(160px, auto));
+  max-height: 270px;
   overflow-y: hidden;
 }
 
